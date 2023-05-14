@@ -12,7 +12,7 @@ jobs:
     - name: Clone Source Code 
       uses: actions/checkout@v3
     - name: Configure AWS Credentials
-      uses: aws-actions/configure-aws-credentials@v2
+      uses: aws-actions/configure-aws-credentials@v3
       with:
         role-to-assume: arn:aws:iam::084963261788:role/github-actions-terraform
         aws-region: eu-west-1
