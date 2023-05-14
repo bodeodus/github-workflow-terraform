@@ -18,8 +18,8 @@ jobs:
         aws-region: eu-west-1
     - name: Run Terraform Init command
       run: terraform init
-      - name: Run Terraform Plan command
-        run: terraform plan
-      - name: Run Terraform Apply command
-        run: terraform apply -auto-approve
+    - name: Run Terraform Plan command
+      run: terraform plan
+    - name: Run Terraform Apply command
+      run: terraform apply -auto-approve
       
